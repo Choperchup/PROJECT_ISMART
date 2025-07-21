@@ -107,6 +107,8 @@ function load_view($name, $data_send = array())
     }
 }
 
+
+
 function load_model($name)
 {
     $path = MODULESPATH . DIRECTORY_SEPARATOR . get_module() . DIRECTORY_SEPARATOR . 'models' . DIRECTORY_SEPARATOR . $name . 'Model.php';

@@ -26,41 +26,41 @@
                     <a href="?" title="" id="logo" class="fl-left">ADMIN</a>
                     <ul id="main-menu" class="fl-left">
                         <li>
-                            <a href="?page=list_post" title="">Trang</a>
+                            <a href="?mod=users&action=home" title="">Trang</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="?page=add_page" title="">Thêm mới</a>
+                                    <a href="?mod=users&action=add_page" title="">Thêm mới</a>
                                 </li>
                                 <li>
-                                    <a href="?page=list_page" title="">Danh sách trang</a>
+                                    <a href="?mod=users&action=list_page" title="">Danh sách trang</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="?page=list_post" title="">Bài viết</a>
+                            <a href="?mod=users&action=post" title="">Bài viết</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="?page=add_post" title="">Thêm mới</a>
+                                    <a href="?mod=users&action=add_post" title="">Thêm mới</a>
                                 </li>
                                 <li>
-                                    <a href="?page=list_post" title="">Danh sách bài viết</a>
+                                    <a href="?mod=users&action=list_post" title="">Danh sách bài viết</a>
                                 </li>
                                 <li>
-                                    <a href="?page=list_cat" title="">Danh mục bài viết</a>
+                                    <a href="?mod=users&action=list_cat" title="">Danh mục bài viết</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="?page=list_product" title="">Sản phẩm</a>
+                            <a href="?mod=users&action=product" title="">Sản phẩm</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="?page=add_product" title="">Thêm mới</a>
+                                    <a href="?mod=users&action=add_product" title="">Thêm mới</a>
                                 </li>
                                 <li>
-                                    <a href="?page=list_product" title="">Danh sách sản phẩm</a>
+                                    <a href="?mod=users&action=list_product" title="">Danh sách sản phẩm</a>
                                 </li>
                                 <li>
-                                    <a href="?page=list_cat" title="">Danh mục sản phẩm</a>
+                                    <a href="?mod=users&action=list_cat" title="">Danh mục sản phẩm</a>
                                 </li>
                             </ul>
                         </li>
@@ -68,15 +68,15 @@
                             <a href="" title="">Bán hàng</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="?page=list_order" title="">Danh sách đơn hàng</a>
+                                    <a href="?mod=users&action=list_order" title="">Danh sách đơn hàng</a>
                                 </li>
                                 <li>
-                                    <a href="?page=list_order" title="">Danh sách khách hàng</a>
+                                    <a href="?mod=users&action=list_order" title="">Danh sách khách hàng</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="?page=menu" title="">Menu</a>
+                            <a href="?mod=users&action=menu" title="">Menu</a>
                         </li>
                     </ul>
                     <div id="dropdown-user" class="dropdown dropdown-extended fl-right">

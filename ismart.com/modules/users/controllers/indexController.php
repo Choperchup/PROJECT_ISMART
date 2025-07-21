@@ -219,9 +219,17 @@ function resetAction()
     }
 }
 
-function resetSuccess(){
-    
+function resetSuccess()
+{
     load_view('resetSuccess');
 }
 
+function indexAction()
+{
+    load_view('index');
+}
 
+function blogAction()
+{
+    load_view('blog');
+}

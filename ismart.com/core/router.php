@@ -13,6 +13,6 @@ $action_name = get_action() . 'Action';
 
 call_function(array('construct', $action_name));
 
-// if (!is_login() && get_action() != 'login' && get_action() != 'reg' && get_action() != 'active' && get_action() != 'reset' && get_action() != 'resetSuccess') {
-//     redirect("?mod=users&action=login");
-// }
+if (!is_login() && get_action() != 'login' && get_action() != 'reg' && get_action() != 'active' && get_action() != 'reset' && get_action() != 'resetSuccess') {
+    redirect("?mod=users&action=login");
+}

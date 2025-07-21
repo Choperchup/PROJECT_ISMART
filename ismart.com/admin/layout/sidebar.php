@@ -7,10 +7,10 @@
             </a>
             <ul class="sub-menu">
                 <li class="nav-item">
-                    <a href="?page=add_page" title="" class="nav-link">Thêm mới</a>
+                    <a href="?mod=users&action=add_page" title="" class="nav-link">Thêm mới</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?page=list_page" title="" class="nav-link">Danh sách các trang</a>
+                    <a href="?mod=users&action=list_page" title="" class="nav-link">Danh sách các trang</a>
                 </li>
             </ul>
         </li>
@@ -21,13 +21,13 @@
             </a>
             <ul class="sub-menu">
                 <li class="nav-item">
-                    <a href="?page=add_post" title="" class="nav-link">Thêm mới</a>
+                    <a href="?mod=users&action=add_post" title="" class="nav-link">Thêm mới</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?page=list_post" title="" class="nav-link">Danh sách bài viết</a>
+                    <a href="?mod=users&action=list_post" title="" class="nav-link">Danh sách bài viết</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?page=list_cat" title="" class="nav-link">Danh mục bài viết</a>
+                    <a href="?mod=users&action=list_cat" title="" class="nav-link">Danh mục bài viết</a>
                 </li>
             </ul>
         </li>
@@ -38,13 +38,13 @@
             </a>
             <ul class="sub-menu">
                 <li class="nav-item">
-                    <a href="?page=add_product" title="" class="nav-link">Thêm mới</a>
+                    <a href="?mod=users&action=add_product" title="" class="nav-link">Thêm mới</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?page=list_product" title="" class="nav-link">Danh sách sản phẩm</a>
+                    <a href="?mod=users&action=list_product" title="" class="nav-link">Danh sách sản phẩm</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?page=list_cat" title="" class="nav-link">Danh mục sản phẩm</a>
+                    <a href="?mod=users&action=list_cat" title="" class="nav-link">Danh mục sản phẩm</a>
                 </li>
             </ul>
         </li>
@@ -55,10 +55,10 @@
             </a>
             <ul class="sub-menu">
                 <li class="nav-item">
-                    <a href="?page=list_order" title="" class="nav-link">Danh sách đơn hàng</a>
+                    <a href="?mod=users&action=list_order" title="" class="nav-link">Danh sách đơn hàng</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?page=list_customer" title="" class="nav-link">Danh sách khách hàng</a>
+                    <a href="?mod=users&action=list_customer" title="" class="nav-link">Danh sách khách hàng</a>
                 </li>
             </ul>
         </li>
@@ -69,13 +69,13 @@
             </a>
             <ul class="sub-menu">
                 <li class="nav-item">
-                    <a href="?page=add_widget" title="" class="nav-link">Thêm mới</a>
+                    <a href="?mod=users&action=add_widget" title="" class="nav-link">Thêm mới</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?page=list_widget" title="" class="nav-link">Danh sách khối</a>
+                    <a href="?mod=users&action=list_widget" title="" class="nav-link">Danh sách khối</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?page=menu" title="" class="nav-link">Menu</a>
+                    <a href="?mod=users&action=menu" title="" class="nav-link">Menu</a>
                 </li>
             </ul>
         </li>
@@ -86,10 +86,10 @@
             </a>
             <ul class="sub-menu">
                 <li class="nav-item">
-                    <a href="?page=add_slider" title="" class="nav-link">Thêm mới</a>
+                    <a href="?mod=users&action=add_slider" title="" class="nav-link">Thêm mới</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?page=list_slider" title="" class="nav-link">Danh sách slider</a>
+                    <a href="?page=?mod=users&action=list_slider" title="" class="nav-link">Danh sách slider</a>
                 </li>
             </ul>
         </li>
@@ -100,7 +100,7 @@
             </a>
             <ul class="sub-menu">
                 <li class="nav-item">
-                    <a href="?page=list_media" title="" class="nav-link">Danh sách media</a>
+                    <a href="?mod=users&action=list_media" title="" class="nav-link">Danh sách media</a>
                 </li>
             </ul>
         </li>

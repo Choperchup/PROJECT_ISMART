@@ -10,8 +10,10 @@ function construct()
 
 function indexAction()
 {
-    get_header();
+    // get_header();
+    load_view('list_post');
 }
+
 
 function regAction()
 {
@@ -233,4 +235,97 @@ function updateAction()
     $info_user = get_user_by_username(user_login());
     $data['info_user'] = $info_user;
     load_view('update', $data);
+}
+
+// Hàm load trang
+
+function menuAction()
+{
+    load_view('menu');
+}
+
+function homeAction()
+{
+    load_view('home');
+}
+
+function productAction()
+{
+    load_view('product');
+}
+
+function add_productAction()
+{
+    load_view('add_product');
+}
+
+function postAction()
+{
+    load_view('post');
+}
+
+function add_pageAction()
+{
+    load_view('add_page'); // file: modules/users/views/add_pageView.php
+}
+
+function list_pageAction()
+{
+    load_view('list_page');
+}
+
+function list_productAction()
+{
+    load_view('list_product');
+}
+
+function add_postAction()
+{
+    load_view('add_post');
+}
+
+function list_postAction()
+{
+    load_view('list_post');
+}
+
+function list_catAction()
+{
+    load_view('list_cat');
+}
+
+
+function list_orderAction()
+{
+    load_view('list_order');
+}
+
+function list_customerAction()
+{
+    load_view('list_customer');
+}
+
+function add_widgetAction()
+{
+    load_view('add_widget');
+}
+
+function list_widgetAction()
+{
+    load_view('list_widget');
+}
+
+function add_sliderAction()
+{
+    load_view('add_slider');
+}
+
+function list_sliderAction()
+{
+    load_view('list_slider');
+}
+
+function list_mediaAction()
+{
+    load_view('list_media');
 }
