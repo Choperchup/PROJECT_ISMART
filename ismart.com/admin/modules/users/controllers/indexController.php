@@ -266,13 +266,15 @@ function postAction()
 
 function add_pageAction()
 {
-    load_view('add_page'); // file: modules/users/views/add_pageView.php
+    load_view('add_page', ['page' => $page ?? null]);
 }
 
 function list_pageAction()
 {
     load_view('list_page');
 }
+
+
 
 function list_productAction()
 {

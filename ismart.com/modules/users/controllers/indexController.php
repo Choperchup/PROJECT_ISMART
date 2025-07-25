@@ -233,3 +233,28 @@ function blogAction()
 {
     load_view('blog');
 }
+
+function category_productAction()
+{
+    load_view('category_product');
+}
+
+function detail_blogAction()
+{
+    load_view('detail_blog');
+}
+
+function cartAction()
+{
+    load_view('cart');
+}
+
+function checkoutAction()
+{
+    load_view('checkout');
+}
+
+function detail_productAction()
+{
+    load_view('detail_product');
+}

@@ -100,3 +100,76 @@ function check_active_token($active_token)
 }
 
 
+// ==================== MODEL: tbl_pages ====================
+
+// Lấy tất cả trang
+function get_list_pages()
+{
+    return db_fetch_array("SELECT * FROM `tbl_pages`");
+}
+
+// Lấy thông tin trang theo ID
+function get_page_by_id($id)
+{
+    return db_fetch_row("SELECT * FROM `tbl_pages` WHERE `id_page` = {$id}");
+}
+
+// Thêm trang mới
+function add_page($data)
+{
+    return db_insert('tbl_pages', $data);
+}
+
+// Cập nhật trang
+function update_page($id, $data)
+{
+    return db_update('tbl_pages', $data, "`id` = {$id}");
+}
+
+// Xóa trang và ảnh nếu có
+function delete_page($id)
+{
+    $page = get_page_by_id($id);
+    if (!empty($page['thumbnail'])) {
+        @unlink("public/uploads/{$page['thumbnail']}");
+    }
+    return db_delete('tbl_pages', "`id_page` = {$id}");
+}
+
+// ==================== MODEL: tbl_categories ====================
+
+// Lấy tất cả danh mục
+function get_list_categories()
+{
+    return db_fetch_array("SELECT * FROM `tbl_categories`");
+}
+
+// Lấy danh mục theo ID
+function get_category_by_id($id)
+{
+    return db_fetch_row("SELECT * FROM `tbl_categories` WHERE `id` = {$id}");
+}
+
+// Thêm danh mục mới
+function add_category($data)
+{
+    return db_insert('tbl_categories', $data);
+}
+
+// Cập nhật danh mục
+function update_category($id, $data)
+{
+    return db_update('tbl_categories', $data, "`id` = {$id}");
+}
+
+// Xóa danh mục
+function delete_category($id)
+{
+    return db_delete('tbl_categories', "`id` = {$id}");
+}
+
+
+function get_list_page()
+{
+    return db_fetch_array("SELECT * FROM `tbl_pages`");
+}

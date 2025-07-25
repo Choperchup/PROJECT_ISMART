@@ -31,19 +31,19 @@
                         <div id="main-menu-wp" class="fl-right">
                             <ul id="main-menu" class="clearfix">
                                 <li>
-                                    <a href="?page=home" title="">Trang chủ</a>
+                                    <a href="?mod=users&action=index" title="">Trang chủ</a>
                                 </li>
                                 <li>
-                                    <a href="?page=category_product" title="">Sản phẩm</a>
+                                    <a href="?mod=users&action=category_product" title="">Sản phẩm</a>
                                 </li>
                                 <li>
-                                    <a href="?page=blog" title="">Blog</a>
+                                    <a href="?mod=users&action=blog" title="">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="?page=detail_blog" title="">Giới thiệu</a>
+                                    <a href="?mod=users&action=detail_blog" title="">Giới thiệu</a>
                                 </li>
                                 <li>
-                                    <a href="?page=detail_blog" title="">Liên hệ</a>
+                                    <a href="?mod=users&action=detail_blog" title="">Liên hệ</a>
                                 </li>
                             </ul>
                         </div>
@@ -51,7 +51,7 @@
                 </div>
                 <div id="head-body" class="clearfix">
                     <div class="wp-inner">
-                        <a href="?page=home" title="" id="logo" class="fl-left"><img src="public/images/logo.png" /></a>
+                        <a href="?page?mod=users&action=index" title="" id="logo" class="fl-left"><img src="public/images/logo.png" /></a>
                         <div id="search-wp" class="fl-left">
                             <form method="POST" action="">
                                 <input type="text" name="s" id="s" placeholder="Nhập từ khóa tìm kiếm tại đây!">
@@ -64,7 +64,7 @@
                                 <span class="phone">0987.654.321</span>
                             </div>
                             <div id="btn-respon" class="fl-right"><i class="fa fa-bars" aria-hidden="true"></i></div>
-                            <a href="?page=cart" title="giỏ hàng" id="cart-respon-wp" class="fl-right">
+                            <a href="?mod=users&action=cart" title="giỏ hàng" id="cart-respon-wp" class="fl-right">
                                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                                 <span id="num">2</span>
                             </a>
@@ -102,8 +102,8 @@
                                         <p class="price fl-right">18.500.000đ</p>
                                     </div>
                                     <dic class="action-cart clearfix">
-                                        <a href="?page=cart" title="Giỏ hàng" class="view-cart fl-left">Giỏ hàng</a>
-                                        <a href="?page=checkout" title="Thanh toán" class="checkout fl-right">Thanh toán</a>
+                                        <a href="?mod=users&action=cart" title="Giỏ hàng" class="view-cart fl-left">Giỏ hàng</a>
+                                        <a href="?mod=users&action=checkout" title="Thanh toán" class="checkout fl-right">Thanh toán</a>
                                     </dic>
                                 </div>
                             </div>

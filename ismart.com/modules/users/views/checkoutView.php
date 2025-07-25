@@ -1,3 +1,6 @@
+<?php
+get_header();
+?>
 <div id="main-content-wp" class="checkout-page">
     <div class="section" id="breadcrumb-wp">
         <div class="wp-inner">
@@ -97,3 +100,6 @@
         </div>
     </div>
 </div>
+<?php
+get_footer();
+?>

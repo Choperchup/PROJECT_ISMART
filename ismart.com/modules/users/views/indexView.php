@@ -433,7 +433,7 @@ get_header();
                             <a href="?page=category_product" title="">Máy tính bảng</a>
                         </li>
                         <li>
-                            <a href="?page=category_product" title="">laptop</a>
+                            <a href="?page=category_product" title="">Laptop</a>
                         </li>
                         <li>
                             <a href="?page=category_product" title="">Tai nghe</a>

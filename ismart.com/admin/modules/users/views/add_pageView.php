@@ -12,13 +12,13 @@ get_header();
             </div>
             <div class="section" id="detail-page">
                 <div class="section-detail">
-                    <form method="POST">
+                    <form method="POST" enctype="multipart/form-data">
                         <label for="title">Tiêu đề</label>
-                        <input type="text" name="title" id="title">
+                        <input type="text" name="title" id="title" value="<?php echo isset($title) ? $title : ''; ?>">
                         <label for="title">Slug ( Friendly_url )</label>
                         <input type="text" name="slug" id="slug">
                         <label for="desc">Mô tả</label>
-                        <textarea name="desc" id="desc" class="ckeditor"></textarea>
+                        <textarea name="desc" id="desc" class="ckeditor"><?php echo isset($page['desc']) ? $page['desc'] : ''; ?></textarea>
                         <label>Hình ảnh</label>
                         <div id="uploadFile">
                             <input type="file" name="file" id="upload-thumb">

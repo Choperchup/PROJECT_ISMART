@@ -1,3 +1,6 @@
+<?php
+get_header();
+?>
 <div id="main-content-wp" class="clearfix category-product-page">
     <div class="wp-inner">
         <div class="secion" id="breadcrumb-wp">
@@ -487,3 +490,6 @@
         </div>
     </div>
 </div>
+<?php
+get_footer();
+?>
